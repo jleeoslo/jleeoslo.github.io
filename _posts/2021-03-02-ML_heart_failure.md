@@ -457,7 +457,7 @@ sns.histplot(data=df, x='age')
 
 
 
-![png](output_19_1.png)
+![output_19_1](/assets/images/2021-03-02/output_19_1.png)
     
 
 
