@@ -493,7 +493,7 @@ sns.histplot(data=df.loc[df['creatinine_phosphokinase'] < 3000, 'creatinine_phos
 
 
 ​    
-![png](output_21_1.png)
+![output_21_1](/images/2021-03-02/output_21_1.png)
 ​    
 
 
@@ -511,7 +511,7 @@ sns.histplot(data=df, x='ejection_fraction', bins=13, hue='DEATH_EVENT', kde=Tru
 
 
 ​    
-![png](output_22_1.png)
+![output_22_1](/images/2021-03-02/output_22_1.png)
 ​    
 
 
@@ -529,7 +529,7 @@ sns.histplot(data=df, x='platelets', hue='DEATH_EVENT', kde=True)
 
 
 ​    
-![png](output_23_1.png)
+![output_23_1](/images/2021-03-02/output_23_1.png)
 ​    
 
 
@@ -547,7 +547,7 @@ sns.jointplot(x='platelets', y='creatinine_phosphokinase', hue='DEATH_EVENT', da
 
 
 ​    
-![png](output_24_1.png)
+![output_24_1](/images/2021-03-02/output_24_1.png)
 ​    
 
 
@@ -567,7 +567,7 @@ sns.boxplot(x='DEATH_EVENT', y='ejection_fraction', data=df)
 
 
 ​    
-![png](output_26_1.png)
+![output_26_1](/images/2021-03-02/output_26_1.png)
 ​    
 
 
@@ -585,7 +585,7 @@ sns.boxplot(x='smoking', y='ejection_fraction', data=df)
 
 
 ​    
-![png](output_27_1.png)
+![output_27_1](/images/2021-03-02/output_27_1.png)
 ​    
 
 
@@ -603,7 +603,7 @@ sns.violinplot(x='DEATH_EVENT', y='ejection_fraction', hue='smoking', data=df)
 
 
 ​    
-![png](output_28_1.png)
+![output_28_1](/images/2021-03-02/output_28_1.png)
 ​    
 
 
@@ -625,7 +625,7 @@ sns.swarmplot(x='DEATH_EVENT', y='platelets', hue='smoking', data=df)
 
 
 ​    
-![png](output_29_2.png)
+![output_29_2](/images/2021-03-02/output_29_2.png)
 ​    
 
 
@@ -1498,7 +1498,7 @@ plt.plot(model_xgb.feature_importances_)
 
 
 
-![png](output_58_1.png)
+![output_58_1](/images/2021-03-02/output_58_1.png)
     
 
 
@@ -1511,12 +1511,9 @@ plt.show()
 
 
 ​    
-![png](output_59_0.png)
+![output_59_0](/images/2021-03-02/output_59_0.png)
 ​    
 
-
-그 결과, time이 가장 중요한 요소로 나타나는데... 이게 과연 적절한가?
-다시 EDA로 돌아가보기
 
 
 ```python
@@ -1532,7 +1529,7 @@ sns.histplot(x='time', data=df, hue='DEATH_EVENT', kde=True)
 
 
 ​    
-![png](output_61_1.png)
+![output_61_1](/images/2021-03-02/output_61_1.png)
 ​    
 
 
@@ -1766,7 +1763,7 @@ plt.show()
 
 
 ​    
-![png](output_72_0.png)
+![output_72_0](/images/2021-03-02/output_72_0.png)
 ​    
 
 
@@ -1788,7 +1785,7 @@ sns.jointplot(x='ejection_fraction', y='serum_creatinine',hue='DEATH_EVENT',data
 
 
 ​    
-![png](output_74_1.png)
+![output_74_1](/images/2021-03-02/output_74_1.png)
 ​    
 
 
@@ -1815,7 +1812,7 @@ plot_precision_recall_curve(model_lr, X_test, y_test)
 
 
 ​    
-![png](output_78_1.png)
+![output_78_1](/images/2021-03-02/output_78_1.png)
 ​    
 
 
@@ -1831,8 +1828,7 @@ plot_precision_recall_curve(model_xgb, X_test, y_test)
 
 
 
-
-![png](output_79_1.png)
+![output_79_1](/images/2021-03-02/output_79_1.png)
     
 
 
@@ -1852,7 +1848,7 @@ plot_precision_recall_curve(model_xgb, X_test, y_test)
 
 
 
-![png](output_80_1.png)
+![output_80_1](/images/2021-03-02/output_80_1.png)
     
 
 
@@ -1877,7 +1873,7 @@ plt.show()
 
 
 ​    
-![png](output_84_0.png)
+![output_84_0](/images/2021-03-02/output_84_0.png)
 ​    
 
 
