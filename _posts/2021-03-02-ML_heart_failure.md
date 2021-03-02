@@ -457,7 +457,7 @@ sns.histplot(data=df, x='age')
 
 
 
-![output_19_1](/assets/images/2021-03-02/output_19_1.png)
+![output_19_1](/images/2021-03-02/output_19_1.png)
     
 
 
@@ -475,7 +475,7 @@ sns.histplot(data=df, x='age', hue='DEATH_EVENT', kde=True)
 
 
 ​    
-![png](output_20_1.png)
+![output_20_1](/images/2021-03-02/output_20_1.png)
 ​    
 
 
