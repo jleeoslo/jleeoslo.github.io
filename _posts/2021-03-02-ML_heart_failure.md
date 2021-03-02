@@ -3,7 +3,7 @@ layout: single
 title:  "Can we prevent heart failure by data analysis?"
 ---
 
-# Theme : Can we prevent heart failure by data analysis?
+# [ML] Classification with cilinical data 
 ----------
 
 ## About data:
@@ -1485,7 +1485,13 @@ print(classification_report(y_test, pred))
 ​    
 
 ## Too good to be true!
-    - The accuracy is almost 90%. Maybe there is something missing!
+
+
+```python
+# The accuracy is almost 90%. Maybe there is something missing!
+```
+
+
 
 ### 4-5. Finding important features
 
