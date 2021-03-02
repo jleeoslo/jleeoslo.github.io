@@ -617,16 +617,6 @@ sns.violinplot(x='DEATH_EVENT', y='ejection_fraction', hue='smoking', data=df)
 sns.swarmplot(x='DEATH_EVENT', y='platelets', hue='smoking', data=df)
 ```
 
-    C:\Users\smood\anaconda3\lib\site-packages\seaborn\categorical.py:1296: UserWarning: 9.9% of the points cannot be placed; you may want to decrease the size of the markers or use stripplot.
-      warnings.warn(msg, UserWarning)
-
-
-
-
-
-    <AxesSubplot:xlabel='DEATH_EVENT', ylabel='platelets'>
-
-
 
 
 ​    
@@ -1442,15 +1432,7 @@ model_xgb = XGBClassifier()
 model_xgb.fit(X_train, y_train)
 ```
 
-    [11:10:46] WARNING: C:/Users/Administrator/workspace/xgboost-win64_release_1.3.0/src/learner.cc:1061: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
-
-
-    C:\Users\smood\anaconda3\lib\site-packages\xgboost\sklearn.py:888: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
-      warnings.warn(label_encoder_deprecation_msg, UserWarning)
-
-
-
-
+   
 
     XGBClassifier(base_score=0.5, booster='gbtree', colsample_bylevel=1,
                   colsample_bynode=1, colsample_bytree=1, gamma=0, gpu_id=-1,
@@ -1726,15 +1708,7 @@ model_xgb = XGBClassifier()
 model_xgb.fit(X_train, y_train)
 ```
 
-    [11:10:47] WARNING: C:/Users/Administrator/workspace/xgboost-win64_release_1.3.0/src/learner.cc:1061: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
-
-
-    C:\Users\smood\anaconda3\lib\site-packages\xgboost\sklearn.py:888: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
-      warnings.warn(label_encoder_deprecation_msg, UserWarning)
-
-
-
-
+    
 
     XGBClassifier(base_score=0.5, booster='gbtree', colsample_bylevel=1,
                   colsample_bynode=1, colsample_bytree=1, gamma=0, gpu_id=-1,
