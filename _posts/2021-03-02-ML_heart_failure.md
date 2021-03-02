@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  "Can we prevent heart failure by data analysis?"
 ---
 
