@@ -84,19 +84,6 @@ df = pd.read_csv('heart_failure_clinical_records_dataset.csv')
 ls
 ```
 
-     El volumen de la unidad C es Windows
-     El n£mero de serie del volumen es: 7EA7-D84F
-    
-     Directorio de C:\Users\smood\Github pages
-    
-    03/02/2021  11:09 AM    <DIR>          .
-    03/02/2021  11:09 AM    <DIR>          ..
-    03/02/2021  10:45 AM    <DIR>          .ipynb_checkpoints
-    03/02/2021  11:10 AM            12,239 heart_failure_clinical_records_dataset.csv
-    03/02/2021  10:53 AM             4,067 heart-failure-clinical-data.zip
-    03/02/2021  11:09 AM           287,362 ml_heart_failure.ipynb
-                   3 archivos        303,668 bytes
-                   3 dirs  887,072,751,616 bytes libres
 
 
 ## Step 2. Exploratory Data Analysis using descriptive statistics
@@ -456,12 +443,6 @@ sns.histplot(data=df, x='age')
 
 
 
-
-    <AxesSubplot:xlabel='age', ylabel='Count'>
-
-
-
-
 ![output_19_1](/images/2021-03-02/output_19_1.png)
     
 
@@ -470,11 +451,6 @@ sns.histplot(data=df, x='age')
 ```python
 sns.histplot(data=df, x='age', hue='DEATH_EVENT', kde=True)
 ```
-
-
-
-
-    <AxesSubplot:xlabel='age', ylabel='Count'>
 
 
 
@@ -492,11 +468,6 @@ sns.histplot(data=df.loc[df['creatinine_phosphokinase'] < 3000, 'creatinine_phos
 
 
 
-    <AxesSubplot:xlabel='creatinine_phosphokinase', ylabel='Count'>
-
-
-
-
 ​    
 ![output_21_1](/images/2021-03-02/output_21_1.png)
 ​    
@@ -507,10 +478,6 @@ sns.histplot(data=df.loc[df['creatinine_phosphokinase'] < 3000, 'creatinine_phos
 sns.histplot(data=df, x='ejection_fraction', bins=13, hue='DEATH_EVENT', kde=True)
 ```
 
-
-
-
-    <AxesSubplot:xlabel='ejection_fraction', ylabel='Count'>
 
 
 
@@ -528,7 +495,6 @@ sns.histplot(data=df, x='platelets', hue='DEATH_EVENT', kde=True)
 
 
 
-    <AxesSubplot:xlabel='platelets', ylabel='Count'>
 
 
 
@@ -543,10 +509,6 @@ sns.histplot(data=df, x='platelets', hue='DEATH_EVENT', kde=True)
 sns.jointplot(x='platelets', y='creatinine_phosphokinase', hue='DEATH_EVENT', data=df, alpha=0.3)
 ```
 
-
-
-
-    <seaborn.axisgrid.JointGrid at 0x1c6d6085ee0>
 
 
 
@@ -566,10 +528,6 @@ sns.boxplot(x='DEATH_EVENT', y='ejection_fraction', data=df)
 
 
 
-    <AxesSubplot:xlabel='DEATH_EVENT', ylabel='ejection_fraction'>
-
-
-
 
 ​    
 ![output_26_1](/images/2021-03-02/output_26_1.png)
@@ -584,10 +542,6 @@ sns.boxplot(x='smoking', y='ejection_fraction', data=df)
 
 
 
-    <AxesSubplot:xlabel='smoking', ylabel='ejection_fraction'>
-
-
-
 
 ​    
 ![output_27_1](/images/2021-03-02/output_27_1.png)
@@ -599,10 +553,6 @@ sns.boxplot(x='smoking', y='ejection_fraction', data=df)
 sns.violinplot(x='DEATH_EVENT', y='ejection_fraction', hue='smoking', data=df)
 ```
 
-
-
-
-    <AxesSubplot:xlabel='DEATH_EVENT', ylabel='ejection_fraction'>
 
 
 
@@ -1486,10 +1436,6 @@ plt.plot(model_xgb.feature_importances_)
 
 
 
-    [<matplotlib.lines.Line2D at 0x1c6d7f9a670>]
-
-
-
 
 ![output_58_1](/images/2021-03-02/output_58_1.png)
     
@@ -1512,12 +1458,6 @@ plt.show()
 ```python
 sns.histplot(x='time', data=df, hue='DEATH_EVENT', kde=True)
 ```
-
-
-
-
-    <AxesSubplot:xlabel='time', ylabel='Count'>
-
 
 
 
@@ -1764,11 +1704,6 @@ sns.jointplot(x='ejection_fraction', y='serum_creatinine',hue='DEATH_EVENT',data
 
 
 
-    <seaborn.axisgrid.JointGrid at 0x1c6d8016a90>
-
-
-
-
 ​    
 ![output_74_1](/images/2021-03-02/output_74_1.png)
 ​    
@@ -1791,10 +1726,6 @@ plot_precision_recall_curve(model_lr, X_test, y_test)
 
 
 
-    <sklearn.metrics._plot.precision_recall_curve.PrecisionRecallDisplay at 0x1c6d81c8cd0>
-
-
-
 
 ​    
 ![output_78_1](/images/2021-03-02/output_78_1.png)
@@ -1806,10 +1737,6 @@ plot_precision_recall_curve(model_lr, X_test, y_test)
 plot_precision_recall_curve(model_xgb, X_test, y_test)
 ```
 
-
-
-
-    <sklearn.metrics._plot.precision_recall_curve.PrecisionRecallDisplay at 0x1c6d81a6ac0>
 
 
 
@@ -1825,10 +1752,6 @@ plot_precision_recall_curve(model_xgb, X_test, y_test)
  plot_precision_recall_curve(model_xgb, X_test, y_test,ax=ax)
 ```
 
-
-
-
-    <sklearn.metrics._plot.precision_recall_curve.PrecisionRecallDisplay at 0x1c6d82c0f40>
 
 
 
