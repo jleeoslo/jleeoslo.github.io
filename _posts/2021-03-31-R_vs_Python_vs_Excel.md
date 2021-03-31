@@ -11,11 +11,7 @@ typora-copy-images-to: ../images/2021-03-31
 
 ## Different data analysis tools
 
-.center {
-  display: block;
-  margin: auto;
-}
-![1](/images/2021-03-31/1.png){: width="300" height="300"){: .center}
+<center><img src="/images/2021-03-31/1.png"></center>
 Source: fast campus(https://www.fastcampus.co.kr/)
 
 * There are many tools for data analysis. 
