@@ -6,7 +6,7 @@
 
  
 
-## **회귀분석이란?
+## 회귀분석이란?
 
 - 독립변수와 종속변수가 모두 연속형 변수(등간척도, 비율척도)일 때 사용하는 분석방법
 - 추정방식은 OLS(Ordinary least square)로 이루어지는데, 이는 오차의 제곱을 최소화 하는 직선이라는 의미이다.
@@ -68,7 +68,7 @@
 
 
 
-** More to read:
+More to read
 
 - R 기초 통계 / 회귀 분석이란? (https://ybeaning.tistory.com/19)]( More to read R 기초 통계 / 회귀 분석이란? (상관분석, 설명력, 다중공선성) https://ybeaning.tistory.com/19) )
 - Logistic Regression Analysis 로지스틱 회귀분석 (https://m.blog.naver.com/libido1014/120122772781)
