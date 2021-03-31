@@ -24,9 +24,9 @@ typora-copy-images-to: ../images/2021-03-31
 
 ## 회귀분석의 원리
 
-- 회귀식:  y = b<sub>0 + b<sub>1 &times; x + e
+- 회귀식:  y = b<sub>0</sub> + b<sub>1</sub> &middot; x + e
 
-  이때, y: 종속변수, x:독립변수,  b<sub>0 : 기울기(즉, 종속변수의 변화량 / 독립변수의 변화량), e: 오차
+  이때, y: 종속변수, x:독립변수,  b<sub>0</sub> : 기울기(즉, 종속변수의 변화량 / 독립변수의 변화량), e: 오차
 
   
 
@@ -38,7 +38,7 @@ typora-copy-images-to: ../images/2021-03-31
 
 -     편차들의 제곱을 최소화 할 수 있는 **직선**이 이 점들을 대표할수 있다.
 
-- 가장 중요한 것은 기울기. 즉, b<sub>1&gt;0 이 ‘0’인가 아닌가가 중요하다.
+- 가장 중요한 것은 기울기. 즉, b<sub>1</sub> 이 ‘0’인가 아닌가가 중요하다.
 
  
 
@@ -55,16 +55,16 @@ typora-copy-images-to: ../images/2021-03-31
 
 ## 회귀분석의 특징
 
-- 회귀분석에서는 여러 개의 독립변수를 포함하는 것(다중회귀분석)이 가능하다. 예를 들어 독립변수가 4개라고 가정할 때, 회귀식은 y = b<sub>0 +  b<sub>1&times;x<sub>1 +  b<sub>2&times;x<sub>2+  b<sub>3&times;x<sub>3+  b<sub>4&times;x<sub>4
+- 회귀분석에서는 여러 개의 독립변수를 포함하는 것(다중회귀분석)이 가능하다. 예를 들어 독립변수가 4개라고 가정할 때, 회귀식은 y = b<sub>0</sub> + b<sub>1</sub>&middot;x<sub>1</sub> + b<sub>2</sub>&middot;x<sub>2</sub> + b<sub>3</sub>&middot;x<sub>3</sub> + b<sub>4</sub>&middot;x<sub>4</sub>
 
 - 여러 개의 독립변수들을 포함하는 경우, 독립변수들이 서로 함께 영향을 미치는 교집합은 제외되고, 각자의 독자적인 영향력으로 계산되어진다. 
 
  
 
-## 설명량(R<sup>2)
+## 설명량(R<sup>2</sup>)
 
-- R<sup>2가 증가할 수록 회귀식에 설명되어지지 못하는 오차는 감소한다. 즉, 표본으로 추정된 회귀선이 관찰치를 얼마나 적절히 설명하는 가를 나타내는 척도이다.
-- R<sup>2의 증가량을 이용해서 독립변수의 포함여부를 결정한다. 예를 들어, y<sub>1 = b<sub>0 +  b<sub>1&times;x<sub>1 +  b<sub>2&times;x<sub>2+  b<sub>3&times;x<sub>3과 새로운 독립변수x<sub>4를 하나 더 추가시킨 y<sub>2 = b<sub>0 +  b<sub>1&times;x<sub>1 +  b<sub>2&times;x<sub>2+  b<sub>3&times;x<sub>3+  b<sub>4&times;x<sub>4이 있을 때, R<sup>2의 증가량이 0이 아닐 경우 x<sub>4를 포함할 수 있으나 반대로 0이거나 0과 비슷할 경우 설명력이 증가하지 않음으로, 굳이 x<sub>4를 포함시키지 않는다.
+- R<sup>2</sup>가 증가할 수록 회귀식에 설명되어지지 못하는 오차는 감소한다. 즉, 표본으로 추정된 회귀선이 관찰치를 얼마나 적절히 설명하는 가를 나타내는 척도이다.
+- R<sup>2</sup>의 증가량을 이용해서 독립변수의 포함여부를 결정한다. 예를 들어, y<sub>1</sub> =  b<sub>0</sub> + b<sub>1</sub>&middot;x<sub>1</sub> + b<sub>2</sub>&middot;x<sub>2</sub> + b<sub>3</sub>&middot;x<sub>3</sub>과 새로운 독립변수x<sub>4</sub>를 하나 더 추가시킨 y<sub>2</sub> =  b<sub>0</sub> + b<sub>1</sub>&middot;x<sub>1</sub> + b<sub>2</sub>&middot;x<sub>2</sub> + b<sub>3</sub>&middot;x<sub>3</sub> + b<sub>4</sub>&middot;x<sub>4</sub>이 있을 때, R<sup>2</sup>의 증가량이 0이 아닐 경우 x<sub>4</sub>를 포함할 수 있으나 반대로 0이거나 0과 비슷할 경우 설명력이 증가하지 않음으로, 굳이 x<sub>4</sub>를 포함시키지 않는다.
 
 
 
