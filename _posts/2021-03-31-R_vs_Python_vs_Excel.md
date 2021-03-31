@@ -58,6 +58,9 @@ typora-copy-images-to: ../images/2021-03-31
 * Excel if you need a quick report by using relatively less large and structured data.
 
  
+ 
+ 
+ 
 
 **More to read**
 - Python or R: Which Is A Better Choice For Data Science? (https://habr.com/en/post/482500/)
