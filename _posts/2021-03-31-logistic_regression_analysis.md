@@ -1,4 +1,3 @@
-```html
 ---
 layout: single
 title: "로지스틱 회귀분석 (logistic regression analysis)"
@@ -6,7 +5,7 @@ description: "Basic understanding  of logistic regression analysis"
 headline: "Basic understanding  of logistic regression analysis"
 typora-copy-images-to: ../images/2021-03-31
 ---
-```
+
 
 
 
@@ -35,9 +34,9 @@ typora-copy-images-to: ../images/2021-03-31
 
 ## 로지스틱 회귀분석 대표 가설
 
--         H0: 독립변수가 종속변수에 미치는 영향의 크기는 ‘0’이 아니다.
--         H1(양측검증): 독립변수가 종속변수에 미치는 영향의 크기는 ‘0’이다.
--         H1(단측검증): 독립변수가 종속변수에 미치는 영향의 크기는 ‘0’보다 크다.
+- H0: 독립변수가 종속변수에 미치는 영향의 크기는 ‘0’이 아니다.
+- H1(양측검증): 독립변수가 종속변수에 미치는 영향의 크기는 ‘0’이다.
+- H1(단측검증): 독립변수가 종속변수에 미치는 영향의 크기는 ‘0’보다 크다.
 
 
 
@@ -45,3 +44,11 @@ typora-copy-images-to: ../images/2021-03-31
 
 - 모형적합도란 모형이 적절하게 만들어졌는지를 보여주는 지표이다.
 - 모형에 대한 검정으로 대표적으로는 카이제곱(x<sup>2</sup>)을, 모형 설명력을 위해서는 -2log likelihood, Cox and Snee R<sup>2</sup> , NagelkerkeR<sup>2</sup> 을 활용한다.
+
+**More to read**
+- Logistic Regression Analysis 로지스틱 회귀분석 (https://m.blog.naver.com/libido1014/120122772781)
+- [SPSS 26] 로지스틱 회귀분석(Logistic Regression) – 동시입력(https://m.blog.naver.com/y4769/221851780608) 
+
+**Reference** 
+
+- 패스트 캠퍼스 데이터 분석 입문 올인원 패키지 강의
