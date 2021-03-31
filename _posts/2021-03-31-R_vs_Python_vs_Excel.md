@@ -1,4 +1,3 @@
-```null
 ---
 layout: page
 title: "Different data analysis tools: R vs Python vs Excel"
@@ -8,7 +7,6 @@ categories: tools
 typora-copy-images-to: ../images/2021-03-31
 ---
 
-```
 
 
 
