@@ -11,9 +11,8 @@ typora-copy-images-to: ../images/2021-03-31
 
 ## Different data analysis tools
 
-![1](/images/2021-03-31/1.png)
-
-​											                      Source: fast campus(https://www.fastcampus.co.kr/)
+![1](/images/2021-03-31/1.png) <p align="center"></p>
+Source: fast campus(https://www.fastcampus.co.kr/)
 
 * There are many tools for data analysis. 
 * Each tool has its own strength so that acknowledging the difference and smartly using different tools depending on situations is important for analysists.
