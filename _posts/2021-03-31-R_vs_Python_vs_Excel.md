@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: single
 title: "Different data analysis tools: R vs Python vs Excel"
 description: "Simple comparision of R, Python and Excel"
 headline: "Simple comparision of R, Python and Excel"
