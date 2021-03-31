@@ -1,4 +1,3 @@
-```markdown
 ---
 layout: single
 title: "회귀분석 (regression analysis)"
@@ -6,7 +5,7 @@ description: "Basic understanding  of regression analysis"
 headline: "Basic understanding  of regression analysis"
 typora-copy-images-to: ../images/2021-03-31
 ---
-```
+
 
 ## 회귀분석 (regression analysis)
 
@@ -25,7 +24,7 @@ typora-copy-images-to: ../images/2021-03-31
 
 ## 회귀분석의 원리
 
-- 회귀식:  y = b<sub>0 +  b<sub>1&times;x + e
+- 회귀식:  y = b<sub>0 + b<sub>1 &times; x + e
 
   이때, y: 종속변수, x:독립변수,  b<sub>0 : 기울기(즉, 종속변수의 변화량 / 독립변수의 변화량), e: 오차
 
