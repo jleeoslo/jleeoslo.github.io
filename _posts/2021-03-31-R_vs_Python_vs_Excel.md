@@ -3,14 +3,13 @@ layout: single
 title: "Different data analysis tools: R vs Python vs Excel"
 description: "Simple comparision of R, Python and Excel"
 headline: "Simple comparision of R, Python and Excel"
-categories: tools
 typora-copy-images-to: ../images/2021-03-31
 ---
 
 
 
 
- ## Different data analysis tools
+## Different data analysis tools
 
 ![img](file:///C:/Users/smood/AppData/Local/Temp/msohtmlclip1/01/clip_image002.jpg)
 
@@ -21,7 +20,6 @@ typora-copy-images-to: ../images/2021-03-31
 \-  Each tool has its own strength so that acknowledging the difference and smartly using different tools depending on situations is important for analysists.
 
  
-
 ## R
 
 \- R has long been used for statistical analysis and visualization.
@@ -33,7 +31,6 @@ typora-copy-images-to: ../images/2021-03-31
 \- Relatively slow.
 
  
-
 ## Python
 
 \- Not only for analysis, but also extensible to different systems for example using APIs.
