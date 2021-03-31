@@ -11,7 +11,7 @@ typora-copy-images-to: ../images/2021-03-31
 
 ## Different data analysis tools
 
-<img src="../images/2021-03-31/1.jpg" alt="20210131_041320" style="zoom:25%;" />
+<img src="../images/2021-03-31/1.jpg">
 
 ​											                      Source: fast campus(https://www.fastcampus.co.kr/)
 
