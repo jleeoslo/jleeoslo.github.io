@@ -28,13 +28,13 @@ typora-copy-images-to: ../images/2021-04-01
 
 - 구조모형은 (잠재)변수들 간의 관계를 나타낸다. 구조모형은 경로분석을 통해 분석한다.
 
-<center><img src ="/images/2021-04-04/7.png"></center>
+<center><img src ="/images/2021-04-01/7.png"></center>
 
 <center><small>출처: 패스트캠퍼스</small></center>
 
 - 측정모형은 변수와 측정문항들 간의 관계를 나타낸다. 측정모형은 **확인적 요인 분석**으로 분석한다.
 
-<center><img src ="/images/2021-04-04/8.png"></center>
+<center><img src ="/images/2021-04-01/8.png"></center>
 
 <center><small>출처: 패스트캠퍼스</small></center>
 
@@ -55,14 +55,14 @@ typora-copy-images-to: ../images/2021-04-01
 
 
 
-** More to read**
+**More to read**
 
 - Ch05_02.구조방정식모형_측정모형_구조모형_Data_Cleaning_02
   (https://www.youtube.com/watch?v=6rYPylXNoWc)
 
 
 
-** Reference**
+**Reference**
 
 - 패스트 캠퍼스 데이터 분석 입문 올인원 패키지 강의
 
