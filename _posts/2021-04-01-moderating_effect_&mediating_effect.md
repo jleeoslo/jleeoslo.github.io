@@ -1,9 +1,10 @@
+---
 layout: single
 title: "조절효과와 매개효과(moderating effect and mediating effect)"
 description: "Basic understanding of moderating effect and mediating effect"
 headline: "Basic understanding of moderating effect and mediating effect"
 typora-copy-images-to: ../images/2021-04-01
-
+---
 
 
 ## 조절효과(moderating effect)
