@@ -1,4 +1,3 @@
-```
 ---
 
 layout: single
@@ -8,7 +7,6 @@ headline: "Terms related to DE"
 typora-copy-images-to: ../images/2021-04-02
 
 ---
-```
 
 
 
