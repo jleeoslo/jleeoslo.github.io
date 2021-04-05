@@ -53,11 +53,64 @@ typora-copy-images-to: ../images/2021-04-02
 - Data Lake에는 다양한 빅데이터 기술 (ex.hadoop, Spark 등)이 포함되며, DW와 Data Lake를 함께 하이브리드의 형태로 사용하기 한다.
 
 
+## 4. 데이터 스트림(Data Stream) VS 배치(Batch)
 
-**This will be keep updating**
+- 먼저, 데이터 적재 유형을 **bounded data**와 **unbounded data**로 나누어 설명할 수 있는데, 
+  - bounded data는 일단 저장되면 이후 변화가 없는 데이터이다. 이러한 데이터들은 묶어서 특정 시간에 한 번에 일괄처리하는데 이러한 처리방법을 배치처리(**Batch processing**)한다. 이에 대한 예시로는 매 월 단위 매출 데이터, 매 월 신규 고객 유치 수 등이 있는데, 이 경우에는 월 마다 데이터를 한꺼번에 처리할 수있다.
+  - 한편, unbounded data는 끊임없이 지속적으로 적재되는 데이터로 임의의 주기를 정해 배치처리하거나 혹은 스트림 처리(**Stream processing**)할 수 있다. 예컨대 시스템 로그 데이터, 주식 가격 변동 데이터 등은 시간 혹은 일별 단위로 배치 처리 하거나, 필터링 등의 세부 프로세스를 거쳐 필요한 정보만  실시간으로 스트림 처리할 수 있다.
+
+<center><img src ="/images/2021-04-02/3.png"></center>
+
+<center><small>출처: www.oreilly.com, The world beyond batch</small></center>
+
+- 한편, **Micro Batch**란 배치의 주기를 상대적으로 짧게 설정하여 준 실시간 처리의 효과를 내는 방법으로 일종의 스트림 처리로 분류된다.
+
+- 아래는 스트림 처리 인프라 아키텍처의 한 예시이다. 앞 부분에는 서버 혹은 앱에서 지속적으로 생성되는 로그 데이터를 데이터 스트리밍 오픈 소스인 **Apache Kafka**를 통해 실시간으로 불러와 **Spark streaming**으로 전송하는 과정이 표현되어 있다. 여기서 Kafka는 데이터 유실을 방지하기 위해 초반에 데이터를 잠시 담아두는 저장고(**queue**) 역할을 한다. Kafka에서 넘어온 데이터는 Spark streaming에서 실시간으로 분석되며, 그 분석 결과는 **HBASE**라고 하는 일종의 NoSQL데이터 베이스에 저장된다.
+  
+
+## 5. 워크플로우(Workflow)
+
+- 사전적으로는 작업 절차를 통한 정보 또는 업무의 이동로 정의되며, 데이터 워크플로우는 데이터 처리의 작업 절차를 의미한다. 
+
+- 예컨대 ETL도 워크플로우 스케쥴링 도구를 통해 자동으로 진행할 수 있다.
+
+- 아래는 워크플로우의 예시로 노드와 노드 간의 화살표를 통해 작업, 데이터의 흐름을 쉽게 확인할 수 있다.
+
+  <center><img src ="/images/2021-04-02/4.png"></center>
+
+  <center><small>출처: www.knime.com</small></center>
+
+- 워크플로우는 Directed Acyclic Graph(**DAG**)의 속성을 가지거나 그렇지 않을 수 있는데, DAG는 방향성 비순환 그래프로 해석하며 이를 준수해야한다는 것은 워크플로우가 방향을 가지되 서로 순환하는 형태가 없어야 함을 의미한다.
+
+- 워크플로우 엔진으로는 **Apache Oozie**(html기반), **Apache Airflow**(Python기반) 등이 있다.
 
 
+## 6. 컴퓨터 클러스터(Computer Cluster)
 
+- 여러 대의 컴퓨터들이 네트워크 상으로 연결되어 하나의 시스템처럼 동작하는 컴퓨터들의 집합을 의미한다. 
+
+- 물리적으로는 여러 컴퓨터이지만 외부 사용자는 마치 한대의 컴퓨터 인 것으로 인식하며 사용할 수 있다.
+
+- 컴퓨터 클러스터의 구성요소는 다음과 같다.
+
+  - Node(Master + Slave): 서버
+  - Network: 네트워크
+  - OS: 운영체제
+  - Middleware: 이 클러스터를 동작하게 하는 미들웨어
+
+- 서버의 확장을 통해 우수한 성능을 내기위한 목적을 가진다. 컴퓨터 클러스터를 구축하기위해서는 분산 컴퓨팅(distributed computing) 기술이 필요하다.
+
+- 클러스터에서는 단일장애지점인 **SPOF**(Single Point Of Failure)가 없어야 하며, 고가용성인 **HA**(High Availability)가 유지되어야 한다. 다시말해, 시스템 구성 중에 동작하지 않으면 전체 시스템이 중단되는 요소가 없어야 하고, 서버와 네트워크, 프로그램 등의 시스템이 지속적으로 운영가능해야한다.
+
+  
+
+  <center><img src ="/images/2021-04-02/5.png"></center>
+
+  <center><small>출처: 패스트 캠퍼스</small></center>
+
+  예를 들어, 위 그림에서 Master 1이 피치 못하게 중단 될 경우, 대비책인 Master 2가 동작하게 한다. 
+
+  
 **Reference**
 
 - 패스트 캠퍼스 데이터 분석 입문 올인원 패키지 강의
