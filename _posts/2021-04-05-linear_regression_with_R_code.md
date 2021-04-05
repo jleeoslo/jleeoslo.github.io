@@ -28,14 +28,7 @@ typora-copy-images-to: ../images/2021-04-05
 
 - When data include 1,078 samples of father(X)-son(Y)'s heights, following codes are to draw trend lines representing the averages of X and Y and find a linear function by calculating regression coefficient to make a prediction.
 
-  
----
-
----
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+ 
 
 ### (1) Importing data
 
@@ -44,6 +37,14 @@ heights = read.csv('data/heights.csv')
 head(heights)
 tail(heights)
 ```
+   father     son
+1	165.2232	151.8368		
+2	160.6574	160.5637		
+3	164.9865	160.8897		
+4	167.0113	159.4926		
+5	155.2886	163.2741		
+6	160.0773	163.1752		
+6 rows
 
 ### (2) Drawing a scatterplot and trend lines
 
@@ -52,25 +53,29 @@ plot(heights, pch=16, col='#3377BB77')
 abline(v=mean(heights$father), lty=2)
 abline(h=mean(heights$son),lty=2)
 ```
+<img src ="/images/2021-04-05/2.png">
 
 ### (3) Calculating regression coefficient
 
 ```{r}
 r_xy = cor(heights$father, heights$son)
 r_xy
-
+```
+[1] 0.5013383
+```{r}
 sd_x = sd(heights$father)
 sd_y = sd(heights$son)
 
 b1 = r_xy/sd_x*sd_y
 b1
-
-
+```
+[1] 0.514093
+```{r}
 b0 = mean(heights$son) - b1*mean(heights$father)
 b0
 ```
+[1] 86.07198
 
-**The *RED* line represents the relationship between dad-son's heights** 
 
 ```{r scatterplot_regression, echo=TRUE}
 plot(heights, pch=16, col='#3377BB77')
@@ -78,11 +83,18 @@ abline(v=mean(heights$father), lty=2)
 abline(h=mean(heights$son),lty=2)
 abline(a=b0, b=b1, col='red', lwd=2)
 ```
+<img src ="/images/2021-04-05/3.png">
+**The *RED* line represents the relationship between dad-son's heights** 
 
 ### (4) Prediction applying the given regression coefficient
 
 ```{r}
 b0 + b1*175 #When dad's height is 175
+```
+[1] 176.0383
+```{r}
 b0 + b1*190 #When dad's height is 190
 ```
+[1] 183.7497
+
 
