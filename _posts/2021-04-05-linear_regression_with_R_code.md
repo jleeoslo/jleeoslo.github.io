@@ -8,7 +8,7 @@ typora-copy-images-to: ../images/2021-04-05
 
 ---
 
-## ##1. How to calculate regression coefficient in simple linear regression? 
+## 1. How to calculate regression coefficient in simple linear regression? 
 
 - In simple linear regression a linear function is used to explain the relationship between one independent variable(x) and a dependent variable(y) as accurate as possible, and predict unseen dependent values when certain independent values are given. **The independent variable is single and continuous"**
 
@@ -24,17 +24,20 @@ typora-copy-images-to: ../images/2021-04-05
 
     S<sub>X</sub> and S<sub>Y</sub> is the standard deviation of X and Y
 
-## ##2. R script for understanding simple linear regression
+## 2. R script for understanding simple linear regression
 
 - When data include 1,078 samples of father(X)-son(Y)'s heights, following codes are to draw trend lines representing the averages of X and Y and find a linear function by calculating regression coefficient to make a prediction.
 
   
+---
+
+---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## 1. Importing data
+### (1) Importing data
 
 ```{r}
 heights = read.csv('data/heights.csv')
@@ -42,7 +45,7 @@ head(heights)
 tail(heights)
 ```
 
-## 2. Drawing a scatterplot and trend lines
+### (2) Drawing a scatterplot and trend lines
 
 ```{r scatterplot1, echo=TRUE}
 plot(heights, pch=16, col='#3377BB77')
@@ -50,7 +53,7 @@ abline(v=mean(heights$father), lty=2)
 abline(h=mean(heights$son),lty=2)
 ```
 
-## 3. Calculating regression coefficient
+### (3) Calculating regression coefficient
 
 ```{r}
 r_xy = cor(heights$father, heights$son)
@@ -76,7 +79,7 @@ abline(h=mean(heights$son),lty=2)
 abline(a=b0, b=b1, col='red', lwd=2)
 ```
 
-## 4. Prediction applying the given regression coefficient
+### (4) Prediction applying the given regression coefficient
 
 ```{r}
 b0 + b1*175 #When dad's height is 175
