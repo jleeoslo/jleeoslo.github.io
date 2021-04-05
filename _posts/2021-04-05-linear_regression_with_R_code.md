@@ -8,7 +8,7 @@ typora-copy-images-to: ../images/2021-04-05
 
 ---
 
-## ##1. How to calculate regression coefficient in simple linear regression? 
+## 1. How to calculate regression coefficient in simple linear regression? 
 
 - In simple linear regression a linear function is used to explain the relationship between one independent variable(x) and a dependent variable(y) as accurate as possible, and predict unseen dependent values when certain independent values are given. **The independent variable is single and continuous"**
 
@@ -24,11 +24,11 @@ typora-copy-images-to: ../images/2021-04-05
 
     S<sub>X</sub> and S<sub>Y</sub> is the standard deviation of X and Y
 
-## ##2. R script for understanding simple linear regression
+## 2. R script for understanding simple linear regression
 
 - When data include 1,078 samples of father(X)-son(Y)'s heights, following codes are to draw trend lines representing the averages of X and Y and find a linear function by calculating regression coefficient to make a prediction.
 
-## ### (1) Importing data
+### (1) Importing data
 
     heights = read.csv('data/heights.csv')
     head(heights)
@@ -51,7 +51,7 @@ typora-copy-images-to: ../images/2021-04-05
     ## 1077 179.6755 176.0271
     ## 1078 178.5775 170.2181
 
-## ### (2) Drawing a scatterplot and trend lines
+### (2) Drawing a scatterplot and trend lines
 
     plot(heights, pch=16, col='#3377BB77')
     abline(v=mean(heights$father), lty=2)
@@ -59,7 +59,7 @@ typora-copy-images-to: ../images/2021-04-05
 
 <center><img src ="/images/2021-04-05/2.png"></center>
 
-## ### (3) Calculating regression coefficient
+### (3) Calculating regression coefficient
 
     r_xy = cor(heights$father, heights$son)
     r_xy
@@ -87,7 +87,7 @@ typora-copy-images-to: ../images/2021-04-05
 <center><img src ="/images/2021-04-05/3.png"></center>
 **The*RED* line represents the relationship between dad-son’s heights**
 
-## ### (4) Prediction applying the given regression coefficient
+### (4) Prediction applying the given regression coefficient
 
     b0 + b1*175 #When dad's height is 175
     
@@ -96,3 +96,6 @@ typora-copy-images-to: ../images/2021-04-05
     b0 + b1*190 #When dad's height is 190
     
     ## [1] 183.7497
+    
+**Reference**
+- 패스트캠퍼스 데이터 분석 입문 올인원 패키지 강의
