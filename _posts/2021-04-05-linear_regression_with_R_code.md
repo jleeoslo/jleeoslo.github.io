@@ -85,7 +85,7 @@ typora-copy-images-to: ../images/2021-04-05
     abline(a=b0, b=b1, col='red', lwd=2)
 
 <center><img src ="/images/2021-04-05/3.png"></center>
-**The*RED* line represents the relationship between dad-son’s heights**
+**The *RED* line represents the relationship between dad-son’s heights**
 
 ### (4) Prediction applying the given regression coefficient
 
