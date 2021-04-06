@@ -119,14 +119,14 @@ typora-copy-images-to: ../images/2021-04-02
 
 - 데이터베이스에서 정형 데이터(structured data)분석을 위한 필수 요소이다.
 
-- 내부적으로는 DDL, DML, DCL, TCL로 구성된다. (데이터 분석에 있어서는 DDL과 DML이 가장 중요하다.)
+- 내부적으로는 DDL, DML, DCL, TCL로 구성된다.
 
   (1) **DDL**: Data Definition Language
 
   - 데이터 정의 언어로 관계형 데이터베이스에 **테이블 구조를 정의하고 생성(CREATE)하거나 기존 테이블의 구조를 변경(ALTER) 또는 삭제(DROP)**하는 명령어이다.
  
  
- (2) **DML**: Data Manipulation Language
+  (2) **DML**: Data Manipulation Language
 
   - 데이터 조작 언어로 **테이블에 들어있는 데이터들을 조회(SELECT, GROUP BY, HAVING)하거나 변경(INSERT, DELETE, UPGRADE, JOIN)**하는 명령어이다.
    
@@ -141,7 +141,9 @@ typora-copy-images-to: ../images/2021-04-02
   - 트랜잭션 제어 언어로 **트랜잭션 작업 결과를 반영(COMMIT)하거나 이를 취소, 조작 명령 전으로 복구(ROLLBACK)**하는 데에 쓰이는 명령어이다.
   - 한 사용자가 테이블에 어떤 데이터를 입력 중 혹은 수정 중 일 때, 다른 사용자들이 이 데이터를 조회하는데에 문제가 생길 수 있다. 이를 해소하기위해 데이터베이스는 트랜젝션이라는 단위로 관리되어진다. TLC을 통해 예를 들면, COMMIT전 까지 다른 사용자에게 수행 결과가 보여지지 않는 등의 조치를 취할 수 있다. cf) 이에 반해 **NoSQL**은 트랜잭션이 명확하지 않다는 특징을 갖는다.
   
-  
+- 데이터 분석에 있어서는 DDL과 DML이 가장 중요하다
+- SQL 문법은 데이터베이스에 따라 상이 할 수 있다.
+
   
   
 **Reference**
