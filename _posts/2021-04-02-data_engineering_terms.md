@@ -190,7 +190,7 @@ typora-copy-images-to: ../images/2021-04-02
   - **병렬처리**가 가능하고 장애 발생시 스스로 **복구**될 수있는 내성을 가진다.
   - RDD는 최초 생성된 후 바뀌지 않으며 다른 형태로 변환이 필요 할 경우는 새로운 RDD를 만들어 내는데, 이러한 특징은  장애 발생 시 복구에 유리하다. 다시말해, RDD가 진행된 절차를 모두 기억하고 있다가 그대로 수행함으로써 빠르게 복구가 가능한 것이다.
 
-<center><img src="images/2021-04-02/8.png"</center>
+<center><img src="/images/2021-04-02/8.png"</center>
 
 <center><small>출처: 패스트 캠퍼스</small></center>
 
@@ -204,7 +204,7 @@ typora-copy-images-to: ../images/2021-04-02
   - 하둡은 디스크 저장기반으로, 맵리듀스가 중간결과를 HDFS에 기록하기 때문에 read와 write 속도가 느리다. 한편, 스파크는 디스카가 아닌 메모리에 저장하기 때문에 데이터 처리 속도가 하둡의 10~100배로 빠르다.
   - 하둡은 대용량 배치처리에 강점이 있고, 스파크는 준 실시간처리에 많이 활용된다. 
   - 한편, 하둡은 Java로 스파크는 Scala로 쓰여진다.
-<center><img src="images/2021-04-02/9.png"</center>
+<center><img src="/images/2021-04-02/9.png"</center>
 <center><small>출처: 패스트 캠퍼스</small></center>
 
 
@@ -215,7 +215,7 @@ typora-copy-images-to: ../images/2021-04-02
 - 기본 분석을 위한 QL(SQL-Like)언어와 다수의 내부 함수를 제공한다. 또한, UDF(User defined function)도 지원한다.
 - 가장 큰 장점은 다양한 파일 형식으로 전환이 가능 하다는 것이다. 예컨대 JSON이나 xml파일도 별도의 변환 과정없이 하이브에서 바로 읽고 질의할 수있다.
 
-<center><img src="images/2021-04-02/10.png"</center>
+<center><img src="/images/2021-04-02/10.png"</center>
 
 <center><small>출처: 패스트 캠퍼스</small></center>
 
@@ -223,7 +223,7 @@ typora-copy-images-to: ../images/2021-04-02
 
 - 결국 하이브는 SQL을 통해 HDFS의 데이터를 처리 혹은 조회하는 기능을 하는데, 이는 맵리듀스의 java 코드를 직접 입력하는 것보다 훨씬 간단하고 효율적이다(아래 아키텍쳐에서 코드 비교). 다시말해, SQL로 질의하면 내부적으로는 맵리듀스나 기타 언어로 전환하여 수행되는 구조로, 빠른 결과를 가져다줄 뿐만아니라 프로그래밍에 있어 사용자 오류가 적다. 
 
-<center><img src="images/2021-04-02/11.png"</center>
+<center><img src="/images/2021-04-02/11.png"</center>
 
 <center><small>출처: 패스트 캠퍼스</small></center>
 
@@ -237,7 +237,7 @@ typora-copy-images-to: ../images/2021-04-02
 - NoSQL은 **Not only SQL**의 줄임말이며, 기존 관계형 데이터 베이스의 고정형 테이블 도식이 불필요하다. 적재와 조회에 성능을 최적화했기 때문에, 오히려 테이블 간 관계 설정 및 join이 지양된다. (예컨대, 대량의 시스템 로그 적재에는 테이블 간 join이 필요치 않기 때문에 NoSQL를 활용하는 것이 바람직하다.)
 - NoSQL 데이터 베이스의 종류에는 **Apache HBASE**, **mongoDB**, **cassandra**, **elasticsearch** 등이 있다. 다음은 NoSQL의 대표 데이터베이스 중 하나인 HBASE의 아키텍쳐이다. Scale out을 통한 수평적 규모 확장이 가능함을 알 수 있다.
 
-<center><img src="images/2021-04-02/12.png"</center>
+<center><img src="/images/2021-04-02/12.png"</center>
 
 - **CAP이론**
 
@@ -251,7 +251,7 @@ typora-copy-images-to: ../images/2021-04-02
 
   - 분산시스템에서 **이 세 가지 속성을 모두 만족할 수 없다**는 것이 이 이론의 핵심이다. 다시말해, 현존하는 분산시스템은 아래와 같이 최대 두 가지 속성까지만 만족할 수있다. 
 
-<center><img src="images/2021-04-02/13.png"</center>
+<center><img src="/images/2021-04-02/13.png"</center>
 
 - 관계형 데이터베이스(RDB)와의 비교
 
