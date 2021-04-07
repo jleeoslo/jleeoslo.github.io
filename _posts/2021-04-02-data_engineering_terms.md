@@ -201,17 +201,11 @@ typora-copy-images-to: ../images/2021-04-02
   - Spark Mllib: 머신러닝 알고리즘 라이브러리
   - Spark GraphX: 그래프 연산용 모듈
 - 하둡과 스파크 비교
-
-<center><img src="images/2021-04-02/9.png"</center>
-
-<center><small>출처: 패스트 캠퍼스</small></center>
-
-  - 하둡은 디스크 저장기반으로, 맵리듀스가 중간결과를 HDFS에 기록하기 때문에 read와 write 속도가 느리다. 한편, 스파크는 디스카가 아닌 메모리에 저장하기 때문에 데이터 처리 속도가 하둡의 10~100배로 빠르다. 
-
+  - 하둡은 디스크 저장기반으로, 맵리듀스가 중간결과를 HDFS에 기록하기 때문에 read와 write 속도가 느리다. 한편, 스파크는 디스카가 아닌 메모리에 저장하기 때문에 데이터 처리 속도가 하둡의 10~100배로 빠르다.
   - 하둡은 대용량 배치처리에 강점이 있고, 스파크는 준 실시간처리에 많이 활용된다. 
-
   - 한편, 하둡은 Java로 스파크는 Scala로 쓰여진다.
-
+<center><img src="images/2021-04-02/9.png"</center>
+<center><small>출처: 패스트 캠퍼스</small></center>
 
 
 ## 10. Hive
