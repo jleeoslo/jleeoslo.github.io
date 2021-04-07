@@ -254,6 +254,7 @@ typora-copy-images-to: ../images/2021-04-02
   - 분산시스템에서 **이 세 가지 속성을 모두 만족할 수 없다**는 것이 이 이론의 핵심이다. 다시말해, 현존하는 분산시스템은 아래와 같이 최대 두 가지 속성까지만 만족할 수있다. 
 
   <center><img src ="/images/2021-04-02/13.png"></center>
+  <center><small>출처: 패스트캠퍼스</small></center>
 
 
 - 관계형 데이터베이스(RDB)와의 비교
