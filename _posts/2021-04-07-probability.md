@@ -1,3 +1,13 @@
+---
+
+layout: single
+title: "Understanding binomial coefficient and conditional probability with R script"
+description: "Understanding binomial coefficient and conditional probability with R script"
+headline: "Understanding binomial coefficient and conditional probability with R script"
+typora-copy-images-to: ../images/2021-04-07
+
+---
+
 ## 1. Binomial coefficient and probability
 
 \# Using choose( ) to calculate a binomial coefficient
@@ -101,11 +111,12 @@ conditions
 
       hist(SCORES$english_score)
 
-![](2021-04-07-probability_files/figure-markdown_strict/hist-1.png)
+<center><img src ="/images/2021-04-07/hist-1.png"></center>
+
 
       hist(SCORES$english_score, probability=TRUE)
 
-![](2021-04-07-probability_files/figure-markdown_strict/hist-2.png)
+<center><img src ="/images/2021-04-07/hist-2.png"></center>
 
         ## Changing y-axis into density 
 
@@ -115,7 +126,7 @@ conditions
 
       plot(SCORES$english_score, SCORES$math_score, pch=16)
 
-![](2021-04-07-probability_files/figure-markdown_strict/scatterplot-1.png)
+<center><img src ="/images/2021-04-07/scatterplot-1.png"></center>
 
 \# Using subset( ), making subsets
 
