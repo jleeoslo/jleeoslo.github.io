@@ -1,11 +1,9 @@
-----
-
+---
 layout: single
 title: "\[ANOVA test\] Testing the difference in means between groups"
 description: "\[ANOVA test\] Testing the difference in means between groups"
 headline: "\[ANOVA test\] Testing the difference in means between groups"
 typora-copy-images-to: ../images/2021-04-08
-
 ---
 
 
