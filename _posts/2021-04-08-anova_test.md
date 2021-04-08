@@ -66,7 +66,7 @@ There are three groups having a numerical variable: TEAM(A,B and C) and SCORE(0~
     ## TEAM         2     40    20.0   1.081   0.37
     ## Residuals   12    222    18.5
 
-\#\#\# As F-value is 0.37 here, the null hypothesis stating that there is no difference in means between the groups is rejected. Therefore, the difference in means among A,B and C teams (at least between two groups) is statistically significant.
+### As F-value is 0.37 here, the null hypothesis stating that there is no difference in means between the groups is rejected. Therefore, the difference in means among A,B and C teams (at least between two groups) is statistically significant.
 
 
 
