@@ -1,8 +1,8 @@
 ---
 layout: single
-title: "[Chi-squared test] Testing the independence of two categorical variables"
-description: "[Chi-squared test] Testing the independence of two categorical variables"
-headline: "[Chi-squared test] Testing the independence of two categorical variables"
+title: "[Chi-squared test] Testing the independence of two categorical variables with R script"
+description: "[Chi-squared test] Testing the independence of two categorical variables with R script"
+headline: "[Chi-squared test] Testing the independence of two categorical variables with R script"
 typora-copy-images-to: ../images/2021-04-08
 ---
 
