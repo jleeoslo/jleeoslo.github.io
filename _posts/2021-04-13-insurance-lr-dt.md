@@ -42,17 +42,17 @@ Medical Cost Personal Datasets : <https://www.kaggle.com/mirichoi0218/insurance>
 
       hist(insurance$age)
 
-<center><img src ="/images/2021-04-13/his-age-1.png></center>
+<center><img src ="/images/2021-04-13/his-age-1.png"></center>
 
       hist(insurance$bmi)
 
-<center><img src ="/images/2021-04-13/his-bmi-1.png></center>
+<center><img src ="/images/2021-04-13/his-bmi-1.png"></center>
 
       hist(insurance$children)
 
-<center><img src ="/images/2021-04-13/his-children-1.png></center>
+<center><img src ="/images/2021-04-13/his-children-1.png"></center>
 
-<center><img src ="/images/2021-04-13/his-charges-1.png></center>
+<center><img src ="/images/2021-04-13/his-charges-1.png"></center>
 
       table(insurance$sex)
     
@@ -76,7 +76,7 @@ Medical Cost Personal Datasets : <https://www.kaggle.com/mirichoi0218/insurance>
 
       plot(insurance$bmi, insurance$charges, pch=16)
 
-<center><img src ="/images/2021-04-13/scatterplot-1.png></center>
+<center><img src ="/images/2021-04-13/scatterplot-1.png"></center>
 
     cor(insurance$bmi, insurance$charges)
     
@@ -89,7 +89,7 @@ Medical Cost Personal Datasets : <https://www.kaggle.com/mirichoi0218/insurance>
 
       boxplot(charges ~ region, data=insurance)
 
-<center><img src ="/images/2021-04-13/boxplot-1.png></center>
+<center><img src ="/images/2021-04-13/boxplot-1.png"></center>
 
       aggregate(charges ~ region, data=insurance, mean)
     
@@ -163,7 +163,7 @@ Medical Cost Personal Datasets : <https://www.kaggle.com/mirichoi0218/insurance>
       library(rpart.plot)
       rpart.plot(tree_ins)
 
-<center><img src ="/images/2021-04-13/tree-1.png></center>
+<center><img src ="/images/2021-04-13/tree-1.png"></center>
 
 - Depending on a patient’s smoking status, the data is divided into 8: 2
 with a large difference in insurance costs. Smokers pay a lot more than
