@@ -46,8 +46,8 @@ typora-copy-images-to: ../images/2021-03-31
 - 모형에 대한 검정으로 대표적으로는 카이제곱(x<sup>2</sup>)을, 모형 설명력을 위해서는 -2log likelihood, Cox and Snee R<sup>2</sup> , NagelkerkeR<sup>2</sup> 을 활용한다.
 
 **More to read**
-- Logistic Regression Analysis 로지스틱 회귀분석 (https://m.blog.naver.com/libido1014/120122772781)
-- [SPSS 26] 로지스틱 회귀분석(Logistic Regression) – 동시입력(https://m.blog.naver.com/y4769/221851780608) 
+- Logistic Regression Analysis 로지스틱 회귀분석 (<https://m.blog.naver.com/libido1014/120122772781>)
+- [SPSS 26] 로지스틱 회귀분석(Logistic Regression) – 동시입력(<https://m.blog.naver.com/y4769/221851780608>) 
 
 **Reference** 
 
