@@ -1,10 +1,10 @@
-```
+---
 layout: single
 title: ""
 description: "Practicing linear regression and decision tree with insurance cost data"
 headline: "Practicing linear regression and decision tree with insurance cost data"
 typora-copy-images-to: ../images/2021-04-13
-```
+---
 
 ## Practicing linear regression and decision tree with insurance cost data(from Kaggle)
 
