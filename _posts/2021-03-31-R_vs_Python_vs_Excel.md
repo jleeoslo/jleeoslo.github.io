@@ -12,7 +12,7 @@ typora-copy-images-to: ../images/2021-03-31
 ## Different data analysis tools
 
 <center><img src="/images/2021-03-31/1.png"></center>
-Source: fast campus(https://www.fastcampus.co.kr/)
+Source: fast campus (<https://www.fastcampus.co.kr/>)
 
 * There are many tools for data analysis. 
 * Each tool has its own strength so that acknowledging the difference and smartly using different tools depending on situations is important for analysists.
@@ -62,8 +62,8 @@ Source: fast campus(https://www.fastcampus.co.kr/)
  
 
 **More to read**
-- Python or R: Which Is A Better Choice For Data Science? (https://habr.com/en/post/482500/)
-- Python vs R for Data Science (https://towardsdatascience.com/python-vs-r-for-data-science-6a83e4541000)
+- Python or R: Which Is A Better Choice For Data Science? (<https://habr.com/en/post/482500/>)
+- Python vs R for Data Science (<https://towardsdatascience.com/python-vs-r-for-data-science-6a83e4541000>)
 
 
 **Reference**
