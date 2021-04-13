@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Practicing linear regression and decision tree with insurance cost data"
+title: "[R] Practicing linear regression and decision tree with insurance cost data"
 description: "Practicing linear regression and decision tree with insurance cost data"
 headline: "Practicing linear regression and decision tree with insurance cost data"
 typora-copy-images-to: ../images/2021-04-13
