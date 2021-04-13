@@ -55,10 +55,10 @@ typora-copy-images-to: ../images/2021-04-01
 
 
 
-**More to read**
+**More to watch**
 
 - Ch05_02.구조방정식모형_측정모형_구조모형_Data_Cleaning_02
-  (https://www.youtube.com/watch?v=6rYPylXNoWc)
+  (<https://www.youtube.com/watch?v=6rYPylXNoWc>)
 
 
 
