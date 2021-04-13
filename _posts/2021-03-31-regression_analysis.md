@@ -82,9 +82,9 @@ typora-copy-images-to: ../images/2021-03-31
 
 **More to read**
 
-- R 기초 통계 / 회귀 분석이란? (https://ybeaning.tistory.com/19)]( More to read R 기초 통계 / 회귀 분석이란? (상관분석, 설명력, 다중공선성) https://ybeaning.tistory.com/19) )
-- Logistic Regression Analysis 로지스틱 회귀분석 (https://m.blog.naver.com/libido1014/120122772781)
-- [SPSS 26] 로지스틱 회귀분석(Logistic Regression) – 동시입력(https://m.blog.naver.com/y4769/221851780608) 
+- R 기초 통계 / 회귀 분석이란? (<https://ybeaning.tistory.com/19)>]( More to read R 기초 통계 / 회귀 분석이란? (상관분석, 설명력, 다중공선성) <https://ybeaning.tistory.com/19>) )
+- Logistic Regression Analysis 로지스틱 회귀분석 (<https://m.blog.naver.com/libido1014/120122772781>)
+- [SPSS 26] 로지스틱 회귀분석(Logistic Regression) – 동시입력(<https://m.blog.naver.com/y4769/221851780608>) 
 
 
 
