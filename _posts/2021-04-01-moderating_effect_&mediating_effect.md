@@ -63,7 +63,7 @@ typora-copy-images-to: ../images/2021-04-01
 
 **More to read**
 
-- 완전매개효과와 부분매개효과 (https://learnx.tistory.com/entry/%EC%99%84%EC%A0%84%EB%A7%A4%EA%B0%9C%ED%9A%A8%EA%B3%BC%EC%99%80-%EB%B6%80%EB%B6%84%EB%A7%A4%EA%B0%9C%ED%9A%A8%EA%B3%BC)
+- 완전매개효과와 부분매개효과 (<https://learnx.tistory.com/entry/%EC%99%84%EC%A0%84%EB%A7%A4%EA%B0%9C%ED%9A%A8%EA%B3%BC%EC%99%80-%EB%B6%80%EB%B6%84%EB%A7%A4%EA%B0%9C%ED%9A%A8%EA%B3%BC>)
 
 
 
