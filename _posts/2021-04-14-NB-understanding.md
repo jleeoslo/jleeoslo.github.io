@@ -19,6 +19,7 @@ typora-copy-images-to: ../images/2021-04-14
   - When fitting a Naïve Bayes classifier on the example data above, a label(yes or no) of playing tennis can be predicted depending on the conditions of dependent features (outlook and humidity).
   - Following Bayes' theorem, the two dependent features 'outlook' and 'humidity' are considered to be independent(although in real life they are related). 
 
+<br>
 - Bayes' theorem is stated as the following equation when A and B are events and P(B) &#8800;0. 
 
   <center><img src ="/images/2021-04-14/2.png"></center>
@@ -36,6 +37,7 @@ typora-copy-images-to: ../images/2021-04-14
   <center><img src ="/images/2021-04-14/4.png"></center>
 
 
+<br>
 
 - Then, in the same example, the label of playing tennis when outlook is sunny and 		humidity is normal can be decided like this:
 
@@ -43,9 +45,15 @@ typora-copy-images-to: ../images/2021-04-14
 
 <center><img src ="/images/2021-04-14/6.png"></center>
 
+<br>
+
+
 ​		According to the argmax function, between *Yes* and *No*, the one with the higher probability will be labeled.
 
 <center><img src ="/images/2021-04-14/7.png"></center>
+
+<br>
+
 
 ​		Therefore,
 
@@ -56,6 +64,7 @@ typora-copy-images-to: ../images/2021-04-14
 <center><small>source: fastcampus.co.kr</small></center>
 
 
+<br>
 
 - Regardless of the number of dependent features, Naïve Bayes classifier calculates the final probability is by the product of each probability, so the calculation process is simple and convenient. 
 - Yet, as Naïve Bayes classifier assumes conditional independence between dependent features, the association between features cannot be explained in actual data. As already mentioned, in the example data 'outlook' and 'humidity' are considered to be independent although in real life they are related.
