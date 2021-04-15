@@ -389,8 +389,12 @@ confusion_matrix(iris.target,y_pred3)
 
 - The result is reverse from before. The prediction for versicolor(1) was much improved, yet that of versicolor(1) became worse.
 
+<br>
 
+**More to read**
+- 나이브베이즈 분류기: <https://angeloyeo.github.io/2020/08/04/naive_bayes.html>
+- Naive Bayesian: <https://www.saedsayad.com/naive_bayesian.htm#:~:text=Naive%20Bayes%20classifier%20assume%20that,the%20values%20of%20other%20predictors.&text=P(x%7Cc)%20is,the%20prior%20probability%20of%20predictor.>
 
-**reference**
+**Reference**
 
 - 패스트 캠퍼스 머신러닝과 데이터분석 A-Z 올인원 패키지 Online 강의
