@@ -8,16 +8,16 @@ typora-copy-images-to: ../images/2021-04-14
 
 ## Understanding Naïve Bayes classifiers
 
-- Naïve Bayes are a set of supervised learning classification algorithms. Naïve Bayes predict labels of the class variable 'y' according to the conditions of dependent features x<sub>1</sub>,x<sub>2</sub>, ... ,x<sub>n</sub>.
+- Naïve Bayes are a set of supervised learning classification algorithms. Naïve Bayes predict labels of the class 'y' according to the conditions of features x<sub>1</sub>,x<sub>2</sub>, ... ,x<sub>n</sub>.
 
-- Naïve Bayes are based on applying Bayes’ theorem with strong conditional independence assumptions between every pair of dependent features given the label of the class variable.
+- Naïve Bayes are based on applying Bayes’ theorem with strong conditional independence assumptions between every pair of features given the labels of the class.
 
 - <center><img src ="/images/2021-04-14/1.png"></center>
 
   <center><small>source: fastcampus.co.kr</small></center>
 
-  - When fitting a Naïve Bayes classifier on the example data above, a label(yes or no) of playing tennis can be predicted depending on the conditions of dependent features (outlook and humidity).
-  - Following Bayes' theorem, the two dependent features 'outlook' and 'humidity' are considered to be independent(although in real life they are related). 
+  - When fitting a Naïve Bayes classifier on the example data above, a label(yes or no) of playing tennis can be predicted depending on the conditions of features (outlook and humidity).
+  - Following Bayes' theorem, the two features 'outlook' and 'humidity' are considered to be independent(although in real life they are related). 
 
 <br>
 - Bayes' theorem is stated as the following equation when A and B are events and P(B) &#8800;0. 
