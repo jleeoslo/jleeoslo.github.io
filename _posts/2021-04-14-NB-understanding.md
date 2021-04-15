@@ -81,12 +81,14 @@ typora-copy-images-to: ../images/2021-04-14
   <center><img src="/images/2021-04-14/9.png"></center>
 
   - It is assuming that a feature follows a Gaussian normal distribution. In other words, when a label is set as 'c', the certain feature 'x' follows a normal distribution and its mean and variance are calculated within the sample which are labeled as 'c'. 
+<br>
 
 - Multinomial NB : When features are discrete.  
 
   - From the formula of Naïve Bayes, it's calculation follows:
 
     <center><img src="/images/2021-04-14/10.png"></center>
+<br>
 
 - Bernoulli NB : When features are discrete and binary.
 
