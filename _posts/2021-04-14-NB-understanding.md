@@ -70,6 +70,32 @@ typora-copy-images-to: ../images/2021-04-14
 - Yet, as Naïve Bayes classifier assumes conditional independence between features, the association between features cannot be explained in actual data. As already mentioned, in the example data 'outlook' and 'humidity' are considered to be independent although in real life they are related.
 
 
+<br>
+
+## Types of Naïve Bayes classifiers
+
+- Gaussian NB : when features are numerical
+
+  - From the formula of Naïve Bayes, it's calculation follows:
+
+  <center><img src="/images/2021-04-14/9.png"></center>
+
+  - It is assuming that a feature follows a Gaussian normal distribution. In other words, when a label is set as 'c', the certain feature 'x' follows a normal distribution and its mean and variance are calculated within the sample which are labeled as 'c'. 
+
+- Multinomial NB : When features are discrete.  
+
+  - From the formula of Naïve Bayes, it's calculation follows:
+
+    <center><img src="/images/2021-04-14/10.png"></center>
+
+- Bernoulli NB : When features are discrete and binary.
+
+  - From the formula of Naïve Bayes, it's calculation follows:
+
+<center><img src="/images/2021-04-14/11.png"></center>
+
+<br>
+
 
 **Reference**
 
