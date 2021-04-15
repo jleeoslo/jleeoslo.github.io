@@ -66,8 +66,8 @@ typora-copy-images-to: ../images/2021-04-14
 
 <br>
 
-- Regardless of the number of dependent features, Naïve Bayes classifier calculates the final probability is by the product of each probability, so the calculation process is simple and convenient. 
-- Yet, as Naïve Bayes classifier assumes conditional independence between dependent features, the association between features cannot be explained in actual data. As already mentioned, in the example data 'outlook' and 'humidity' are considered to be independent although in real life they are related.
+- Regardless of the number of features, Naïve Bayes classifier calculates the final probability is by the product of each probability, so the calculation process is simple and convenient. 
+- Yet, as Naïve Bayes classifier assumes conditional independence between features, the association between features cannot be explained in actual data. As already mentioned, in the example data 'outlook' and 'humidity' are considered to be independent although in real life they are related.
 
 
 
