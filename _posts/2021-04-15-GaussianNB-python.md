@@ -1,12 +1,12 @@
 ---
 layout: single
-title: "[Naïve Bayes] Practicing Gaussian NB(by setting up a prior probability) with Python"
-description: "[Naïve Bayes] Practicing Gaussian NB(by setting up a prior probability) with Python"
-headline: "[Naïve Bayes] Practicing Gaussian NB(by setting up a prior probability) with Python"
+title: "[Naïve Bayes] Practicing Gaussian NB(by setting up prior probabilities) with Python"
+description: "[Naïve Bayes] Practicing Gaussian NB(by setting up prior probabilities) with Python"
+headline: "[Naïve Bayes] Practicing Gaussian NB(by setting up prior probabilities) with Python"
 typora-copy-images-to: ../images/2021-04-15
 ---
 
-## [Naïve Bayes] Practicing Gaussian NB(by setting up a prior probability) with Python
+## [Naïve Bayes] Practicing Gaussian NB by setting up prior probabilities with Python
 
 ### (1) Importing modules and data
 
