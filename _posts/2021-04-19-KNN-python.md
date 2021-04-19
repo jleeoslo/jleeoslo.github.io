@@ -14,7 +14,7 @@ typora-copy-images-to: ../images/2021-04-19
 - *k*-NN stores all available cases and classifies new cases based on a similarity measure. 
 - *k*-NN classifies a new data point based on how its neighbors are classified. To be more specific, the new data point is classified by a plurality vote of its neighbors and assigned to the class most common among its *k* nearest neighbors.
 
-<center><img src ='images/2021-04-19/1.png'></center>
+<center><img src ='/images/2021-04-19/1.png'></center>
 
 
 
