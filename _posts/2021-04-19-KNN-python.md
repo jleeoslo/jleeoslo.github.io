@@ -1,8 +1,8 @@
 ---
 layout: single
-title: "[k-NN] Practicing k-Nearest Neighbors classification with Python"
-description: "Practicing k-Nearest Neighbors classification with Python"
-headline: "Practicing k-Nearest Neighbors classification with Python"
+title: "[k-NN] Practicing k-Nearest Neighbors classification using cross validation with Python"
+description: "Practicing k-Nearest Neighbors classification using cross validation with Python"
+headline: "Practicing k-Nearest Neighbors classification using cross validation with Python"
 typora-copy-images-to: ../images/2021-04-19
 
 ---
