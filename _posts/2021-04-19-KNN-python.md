@@ -50,7 +50,7 @@ typora-copy-images-to: ../images/2021-04-19
 
 
 
-</br>
+
 
 ## [k-NN] Practicing k-Nearest Neighbors classification using cross validation with Python
 
@@ -177,7 +177,7 @@ plt.ylabel('Cross-validated accuracy')
 plt.show()
 ```
 
-<center><img src ='images/2021-04-19/output_11_0.png'></center>
+<center><img src ='/images/2021-04-19/output_11_0.png'></center>
 
 
 - The accuracy is the highest when K is around 40 to 45 and decrease after that.
@@ -231,11 +231,11 @@ plt.show()
 
 
 
-<center><img src ='images/2021-04-19/output_15_1.png'></center>
+<center><img src ='/images/2021-04-19/output_15_1.png'></center>
 
 
 
-<center><img src ='images/2021-04-19/output_15_2.png'></center>
+<center><img src ='/images/2021-04-19/output_15_2.png'></center>
 
 
 - Compared to the baseline k-NN(weights= 'uniform'), the distance weighted k-NN shows a clean, intuitive boundary. 
@@ -289,7 +289,8 @@ confusion_matrix(y,y_pred2)
 
 
 
-</br>
+
+
 
 **More to read**
 
