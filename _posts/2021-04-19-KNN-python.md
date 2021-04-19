@@ -294,7 +294,7 @@ confusion_matrix(y,y_pred2)
 
 **More to read**
 
--Nearest Neighbors regression: <https://scikit-learn.org/stable/auto_examples/neighbors/plot_regression.html>
+- Nearest Neighbors regression: <https://scikit-learn.org/stable/auto_examples/neighbors/plot_regression.html>
 
 **Reference**
 
