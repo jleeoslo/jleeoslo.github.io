@@ -480,6 +480,10 @@ print(classification_report(y_test, pred2))
 - In this case, LDA yields slightly better performance than QDA
 
 
+<br>
+
+
+
 
 **Reference**
 
