@@ -1,3 +1,12 @@
+---
+layout: single
+title: "[LDA & QDA] Practicing LDA and QDA for diabetes classification with Python"
+description: "[LDA & QDA] Practicing LDA and QDA for diabetes classification with Python"
+headline: "[LDA & QDA] Practicing LDA and QDA for diabetes classification with Python"
+typora-copy-images-to: ../images/2021-04-22
+
+---
+
 ## Practicing LDA and QDA for diabetes classification with Python
 
 
