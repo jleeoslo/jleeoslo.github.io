@@ -45,12 +45,14 @@ with zipfile.ZipFile("diabetes-data-set.zip","r") as zip_ref:
     zip_ref.extractall()
 ```
 
+<br>
+
 
 
 **About data:**
     
-
-- Following description is from https://www.kaggle.com/mathchi/diabetes-data-set
+<small>
+- Following description is from <https://www.kaggle.com/mathchi/diabetes-data-set>
 - This dataset is originally from the National Institute of Diabetes and Digestive and Kidney Diseases. The objective is to predict based on diagnostic measurements whether a patient has diabetes.
 - Several constraints were placed on the selection of these instances from a larger database. In particular, all patients here are females at least 21 years old of Pima Indian heritage.
 - Number of Instances: 768
@@ -63,7 +65,7 @@ with zipfile.ZipFile("diabetes-data-set.zip","r") as zip_ref:
 - DiabetesPedigreeFunction: Diabetes pedigree function
 - Age: Age (years)
 - Outcome: Class variable (0 or 1)
-
+  </small>
 <br>
 
 
