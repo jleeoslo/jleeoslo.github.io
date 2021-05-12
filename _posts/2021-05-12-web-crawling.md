@@ -14,8 +14,7 @@ typora-copy-images-to: ../images/2021-05-12
 
 - As it is seen below, the news title belongs to h1.title class. 
 
-  <center><img src ='images/2021-05-12/1.png'
-
+  <center><img src ='/images/2021-05-12/1.png'</center>
 - Now, I'm ready for crawling the news title with requests and BeautifulSoup:
 
 
