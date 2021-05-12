@@ -41,7 +41,7 @@ title_tag.get_text()
 
     'Helseministeren advarer Høyres landsmøte mot å åpne for sterkøl i butikk'
 
-As I designated correct tag, 'h1.title', the title is well crawled.
+As I designated the correct path, 'h1.title', the title is well crawled.
 
 
 
