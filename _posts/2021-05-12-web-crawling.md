@@ -8,7 +8,7 @@ typora-copy-images-to: ../images/2021-05-12
 
 ## Crawling a news title from a NRK article
 
-- The ULR of the article for this crawling practice is: https://www.nrk.no/norge/helseministeren-med-kraftig-advarsel-mot-sterkol-i-butikk-1.15494124
+- The ULR of the article for this crawling practice is: <https://www.nrk.no/norge/helseministeren-med-kraftig-advarsel-mot-sterkol-i-butikk-1.15494124>
 
   
 
@@ -41,7 +41,7 @@ title_tag.get_text()
 
     'Helseministeren advarer Høyres landsmøte mot å åpne for sterkøl i butikk'
 
-As I designated the correct path, 'h1.title', the title is well crawled.
+As I put the correct tag, 'h1.title', the title is well crawled.
 
 
 
