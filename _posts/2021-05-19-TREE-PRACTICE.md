@@ -411,7 +411,7 @@ Each graph shows regression trees when its depth is 2 and 5. In the regression t
 
 **Reference**
 
-- <https://scikit-learn.org/stable/auto_examples/tree/plot_tree_regression.html>
+- Scikit-learn: <https://scikit-learn.org/stable/auto_examples/tree/plot_tree_regression.html>
 - 세종대*최유경 교수 9주차 의사결정나무 Part4(유튜브 강의): <https://www.youtube.com/watch?v=z683uUHlDeM>
 - 패스트 캠퍼스 머신러닝과 데이터분석 A-Z 올인원 패키지 Online 강의
 
