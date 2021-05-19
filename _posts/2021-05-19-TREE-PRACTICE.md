@@ -104,21 +104,12 @@ y_test_pred = clf.predict(X_test)
 ```
 
 
-```python
-from sklearn.metrics  import accuracy_score
-print(accuracy_score(y_train, y_train_pred))
-print(accuracy_score(y_test, y_test_pred))
-```
-
-    0.9642857142857143
-    0.9210526315789473
-
-
 
 ### (3) Comparing accuracy scores with different depths
 
 
 ```python
+from sklearn.metrics  import accuracy_score
 from sklearn.metrics import confusion_matrix
 ```
 
