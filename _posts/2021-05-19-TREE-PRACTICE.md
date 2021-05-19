@@ -83,29 +83,9 @@ X_train, X_test, y_train, y_test = train_test_split(iris.data,iris.target, strat
 ```
 
 
-```python
-## 3. Making classificaion decision tree
-```
 
 
-```python
-clf=tree.DecisionTreeClassifier(criterion='gini', max_depth=3, random_state=1)
-clf=clf.fit(X_train, y_train)
-```
-
-
-```python
-y_train_pred = clf.predict(X_train)
-```
-
-
-```python
-y_test_pred = clf.predict(X_test)
-```
-
-
-
-### (3) Comparing accuracy scores with different depths
+### (3) Making a classificaion decision tree model and comparing accuracy scores with different depths
 
 
 ```python
