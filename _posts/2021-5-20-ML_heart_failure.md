@@ -1,10 +1,7 @@
 ---
 layout: single
-title:  "Can we prevent heart failure through data analysis?"
+title:  "[ML] Classification with cilinical data: can we prevent heart failure through data analysis?"
 ---
-
-# [ML] Classification with cilinical data 
-----------
 
 ## About data:
 - This analysis includes heart failure clinical records dataset from Kaggle(https://www.kaggle.com/andrewmvd/heart-failure-clinical-data).
