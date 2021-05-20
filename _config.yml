@@ -16,11 +16,11 @@ minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Jlee's github page"
+title                    : "Jlee's github pages"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Jlee"
-description              : "This is my playground for exploring and experimenting with data."
+description              : "This is my playground for data exploration and experimentation."
 url                      : "https://jleeoslo.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
