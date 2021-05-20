@@ -24,11 +24,12 @@ title:  "Can we prevent heart failure by data analysis?"
     13. DEATH_EVENT: If the patient deceased during the follow-up period (boolean: 0-alive, 1-dead)    
 
 ## Goals of the analysis
-- 1. Understanding the form of clinical data
-  2. Applying pandas libary
-  3. Acquring insights through data visualization
-  4. Training models based on Scikit-learn
-  5. Applying classification models and evaluating their performance
+1. Understanding the form of clinical data
+2. Applying pandas libary
+3. Acquring insights through data visualization
+4. Training models based on Scikit-learn
+5. Applying classification models and evaluating their performance
+
 ----------
 
 ## Step 1. Preparing dataset
