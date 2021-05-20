@@ -95,8 +95,8 @@ analytics:
 # Site Author
 author:
   name             : "Jleeoslo"
-  avatar           : 
-  bio              : "This is my **playground** for exploring and experimenting with **data**"
+  avatar           : "/assets/images/miro.jpg"
+  bio              : "This is my playground for data exploration and experimentation"
   location         : "Oslo, Norway"
   email            :
   links:
