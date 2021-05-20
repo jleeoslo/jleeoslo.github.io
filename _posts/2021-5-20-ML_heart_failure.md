@@ -4,7 +4,7 @@ title:  "[ML] Classification with cilinical data: can we prevent heart failure t
 ---
 
 ## About data:
-- This analysis includes heart failure clinical records dataset from Kaggle(https://www.kaggle.com/andrewmvd/heart-failure-clinical-data).
+- This analysis includes heart failure clinical records dataset from Kaggle(<https://www.kaggle.com/andrewmvd/heart-failure-clinical-data>).
 - The given CSV file contains such columns below.
     1. age: age of patients
     2. anaemia: decrease of red blood cells or hemoglobin (boolean: 0-normal, 1-anaemia)
