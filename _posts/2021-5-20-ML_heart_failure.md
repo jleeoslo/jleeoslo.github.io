@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Can we prevent heart failure by data analysis?"
+title:  "Can we prevent heart failure through data analysis?"
 ---
 
 # [ML] Classification with cilinical data 
