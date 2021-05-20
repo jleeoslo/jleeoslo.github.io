@@ -7,9 +7,8 @@ title:  "Can we prevent heart failure by data analysis?"
 ----------
 
 ## About data:
-    - This analysis includes heart failure clinical records dataset from Kaggle(https://www.kaggle.com/andrewmvd/heart-failure-clinical-data).
-    - The given CSV file contains such columns below.
-    
+- This analysis includes heart failure clinical records dataset from Kaggle(https://www.kaggle.com/andrewmvd/heart-failure-clinical-data).
+- The given CSV file contains such columns below.
     1. age: age of patients
     2. anaemia: decrease of red blood cells or hemoglobin (boolean: 0-normal, 1-anaemia)
     3. creatinine_phosphokinase: level of the CPK enzyme in the blood (mcg/L)
@@ -25,11 +24,11 @@ title:  "Can we prevent heart failure by data analysis?"
     13. DEATH_EVENT: If the patient deceased during the follow-up period (boolean: 0-alive, 1-dead)    
 
 ## Goals of the analysis
-    1. Understanding the form of clinical data
-    2. Applying pandas libary
-    3. Acquring insights through data visualization
-    4. Training models based on Scikit-learn
-    5. Applying classification models and evaluating their performance
+- 1. Understanding the form of clinical data
+- 2. Applying pandas libary
+- 3. Acquring insights through data visualization
+- 4. Training models based on Scikit-learn
+- 5. Applying classification models and evaluating their performance
 ----------
 
 ## Step 1. Preparing dataset
