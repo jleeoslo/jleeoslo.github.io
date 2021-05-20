@@ -424,14 +424,10 @@ df.describe()
 
 
 #### Applying df.describe(), one can check:
-
-    - If binary data are balanced or imblanced
-    (for example, the mean of sex is 0.64 and that of smoking is 0.32.
-    This implies there are more data of patients who are men than women.
-    The data include more of non-smokers than smokers.)
-    - If ther are extreme outliers
-    - Increase rate of each percentile
-    - If some variables are correlated
+- Wheter binary data are balanced or imblanced. (For example, the mean of sex is 0.64 and that of smoking is 0.32. This implies there are more data of patients who are men than women. The data include more of non-smokers than smokers.)
+- Whether there are extreme outliers
+- How is the increase rate of each percentile
+- Whether some variables are correlated
 
 ### 2-2. Drawing histogram on numerical data
 
@@ -1417,11 +1413,7 @@ print(classification_report(y_test, pred))
 ​    
 
 ## Too good to be true!
-
-
-```python
-# The accuracy is almost 90%. Maybe there is something missing!
-```
+- The accuracy is almost 90%. Maybe there is something missing!
 
 
 
@@ -1467,9 +1459,9 @@ sns.histplot(x='time', data=df, hue='DEATH_EVENT', kde=True)
 
 
 ### Time as the most important feature?
-    - Time refers to follow-up period.
-    - Time strongly depends on the death event.
-    - Therefore, It could have been better to get rid of 'time'data.
+- Time refers to follow-up period.
+- Time strongly depends on the death event.
+- Therefore, It could have been better to get rid of 'time'data.
 
 ### 4-6. Training again without time data
 
@@ -1693,8 +1685,8 @@ plt.show()
 
 
 ### 4-7. What is the relationship between the two most important features?
-    - serum_creatinine as the most important feature.
-    - ejection_fraction as the second important feature.
+- Serum_creatinine as the most important feature.
+- Ejection_fraction as the second important feature.
 
 
 ```python
@@ -1761,7 +1753,7 @@ plot_precision_recall_curve(model_xgb, X_test, y_test)
 
 
 ### P*R curve implies XGBClassifier yielded better performance on the data
-    - The closer to 1, the better performance
+- The closer to 1, the better performance.
 
 ### 5-2. Identifying ROC curve
 
@@ -1786,6 +1778,6 @@ plt.show()
 
 
 ### ROC curve implies LogisticRegression yielded better performance on the data
-    - The faster reaching 1 while keeping low FPS, the better performance.
-    - The higher Area Under Cover(AUC), the better performance.
-    - In result, it is difficult to say which model is better than the other.
+- The faster reaching 1 while keeping low FPS, the better performance.
+- The higher Area Under Cover(AUC), the better performance.
+- In result, it is difficult to say which model is better than the other.
